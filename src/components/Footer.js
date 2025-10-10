@@ -1,0 +1,13 @@
+import { Box, Typography } from "@mui/material";
+
+function Footer() {
+  return (
+    <Box    sx={{ color: 'gray', p: 2, mt: 0, textAlign: 'center' }}>
+      <Typography variant="body2">
+        &copy; {new Date().getFullYear()} Company Vault. All rights reserved.           
+
+        </Typography>   
+    </Box>
+  );
+}
+export default Footer;

@@ -1,0 +1,118 @@
+{
+  "companies": [
+    {
+      "id": "1",
+      "name": "TechNova Solutions",
+      "location": "Hyderabad",
+      "industry": "Software"
+    },
+    {
+      "id": "2",
+      "name": "GreenLeaf Foods",
+      "location": "Mumbai",
+      "industry": "Food & Beverages"
+    },
+    {
+      "id": "3",
+      "name": "BlueSky Aerospace",
+      "location": "Bangalore",
+      "industry": "Aerospace"
+    },
+    {
+      "id": "4",
+      "name": "UrbanBuild Constructions",
+      "location": "Chennai",
+      "industry": "Construction"
+    },
+    {
+      "id": "5",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "6",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "7",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "8",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "9",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "10",
+      "name": "TechNova Solutions",
+      "location": "Hyderabad",
+      "industry": "Software"
+    },
+    {
+      "id": "11",
+      "name": "GreenLeaf Foods",
+      "location": "Mumbai",
+      "industry": "Food & Beverages"
+    },
+    {
+      "id": "12",
+      "name": "BlueSky Aerospace",
+      "location": "Bangalore",
+      "industry": "Aerospace"
+    },
+    {
+      "id": "13",
+      "name": "UrbanBuild Constructions",
+      "location": "Chennai",
+      "industry": "Construction"
+    },
+    {
+      "id": "14",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "15",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "16",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "17",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": "18",
+      "name": "FinEdge Capital",
+      "location": "Delhi",
+      "industry": "Finance"
+    },
+    {
+      "id": 21,
+      "name": "parabola9",
+      "location": "Nuzvid",
+      "industry": "Software"
+    }
+  ]
+}

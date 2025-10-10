@@ -14,7 +14,7 @@ function App() {
   const [industry, setIndustry] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5001/companies")
+    fetch("https://company-vault.vercel.app/api/companies")
       .then((res) => res.json())
       .then((data) => {
         setCompanies(data);

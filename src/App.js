@@ -17,6 +17,7 @@ function App() {
     fetch("https://company-vault.vercel.app/api/companies")
       .then((res) => res.json())
       .then((data) => {
+        console.log(data);
         setCompanies(data);
         setFilteredCompanies(data);
         setLoading(false);

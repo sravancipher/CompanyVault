@@ -32,7 +32,7 @@ A responsive web application for discovering companies across different industri
 
 1. **Clone the repository**
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/sravancipher/CompanyVault
 cd company-vault
 ```
 
@@ -50,9 +50,9 @@ npm install -g json-server
 
 #### Start JSON Server (Backend)
 ```bash
-json-server --watch db/db.json
+json-server --watch db/db.json --port 5000
 ```
-This will start the JSON Server on `http://localhost:3000` with the following API endpoints:
+This will start the JSON Server on `http://localhost:5000` with the following API endpoints:
 
 | HTTP Method | URL            | Description              |
 | ----------- | -------------- | ------------------------ |
@@ -67,16 +67,10 @@ In a new terminal window:
 ```bash
 npm start
 ```
-This will start the React development server on `http://localhost:3001`.
+This will start the React development server on `http://localhost:3000`.
 
 **Alternative JSON Server Options:**
 ```bash
-# Run on custom port
-json-server --watch db/db.json --port 4000
-
-# Run with static file serving
-json-server --watch db/db.json --static ./public
-```
 
 ## 📦 Building for Production
 
@@ -123,7 +117,7 @@ npm run build
    - Import your GitHub/GitLab/Bitbucket repository
    - Vercel will automatically detect the project settings
    - Click "Deploy"
-   - Your JSON API will be available at `https://your-project.vercel.app/api/companies`
+   - Your JSON API will be available at `https://company-vault.vercel.app/api/companies`
 
 3. **Automatic Deployments**
    - Every push to your main branch will trigger automatic redeployment
@@ -173,19 +167,16 @@ The `db/db.json` file should follow this structure:
 ### Local Development (JSON Server)
 When JSON Server is running locally:
 - **GET** `/companies` - Retrieve all companies
-- **GET** `/companies?industry=Technology` - Filter by industry
-- **GET** `/companies?location=New York` - Filter by location  
-- **GET** `/companies?q=search_term` - Search companies
 
 ### Production (Vercel)
 When deployed on Vercel:
-- **GET** `https://your-project.vercel.app/api/companies` - All endpoints through serverless function
+- **GET** `[https://company-vault.vercel.app/api/companies]` - All endpoints through serverless function
 
 ## ⚙️ Environment Configuration
 
 ### Development
-- JSON Server runs on `http://localhost:3000`
-- React development server runs on `http://localhost:3001`
+- JSON Server runs on `http://localhost:5000`
+- React development server runs on `http://localhost:3000`
 
 ### Production
 - Frontend: Deployed on Netlify
@@ -194,7 +185,7 @@ When deployed on Vercel:
 ## 🔄 Development Workflow
 
 1. **Local Development**
-   - Start JSON Server: `json-server --watch db/db.json`
+   - Start JSON Server: `json-server --watch db/db.json --port 5000`
    - Start React app: `npm start`
    - Make your changes and test locally
 
@@ -203,18 +194,6 @@ When deployed on Vercel:
    - Netlify automatically rebuilds and deploys frontend
    - Vercel automatically redeploys API functions
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
 ## 🆘 Support
 
 If you encounter any issues:
@@ -222,13 +201,14 @@ If you encounter any issues:
    - Check that all dependencies are properly installed
    - Ensure JSON Server is running before starting the React app
    - Verify your `db/db.json` file structure matches the expected format
+   - Configure frontend API calls to target local JSON Server endpoint (http://localhost:3000/companies) for development and testing
+   - Switch frontend API configuration to point to deployed Vercel serverless function endpoint (https://company-vault.vercel.app/api/companies) in production
 
 2. **Deployment Issues:**
    - **Netlify**: Check build logs in the Netlify dashboard
    - **Vercel**: Monitor deployment status in Vercel dashboard
    - Ensure all environment variables are properly configured
 
-## 🚀 Quick Start Commands
 
 ```bash
 # Clone and setup
@@ -237,7 +217,7 @@ cd company-vault
 npm install
 
 # Development
-json-server --watch db/db.json    # Terminal 1
+json-server --watch db/db.json --port 5000    # Terminal 1
 npm start                         # Terminal 2
 
 # Build for production
@@ -247,7 +227,5 @@ npm run build
 ---
 
 **Live Demo**: 
-- Frontend: [Your Netlify URL]
-- API: [Your Vercel API URL]
-
-Built with ❤️ using React.js and Material-UI
+- Frontend: [https://company-vault.netlify.app/]
+- API: [https://company-vault.vercel.app/api/companies]

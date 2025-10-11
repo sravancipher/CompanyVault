@@ -1,118 +1,316 @@
 {
   "companies": [
     {
-      "id": "1",
+      "id": 1,
       "name": "TechNova Solutions",
       "location": "Hyderabad",
       "industry": "Software"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "GreenLeaf Foods",
       "location": "Mumbai",
       "industry": "Food & Beverages"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "BlueSky Aerospace",
       "location": "Bangalore",
       "industry": "Aerospace"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "UrbanBuild Constructions",
       "location": "Chennai",
       "industry": "Construction"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "FinEdge Capital",
       "location": "Delhi",
       "industry": "Finance"
     },
     {
-      "id": "6",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": "7",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": "8",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": "9",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": "10",
-      "name": "TechNova Solutions",
-      "location": "Hyderabad",
-      "industry": "Software"
-    },
-    {
-      "id": "11",
-      "name": "GreenLeaf Foods",
-      "location": "Mumbai",
-      "industry": "Food & Beverages"
-    },
-    {
-      "id": "12",
-      "name": "BlueSky Aerospace",
-      "location": "Bangalore",
-      "industry": "Aerospace"
-    },
-    {
-      "id": "13",
-      "name": "UrbanBuild Constructions",
-      "location": "Chennai",
-      "industry": "Construction"
-    },
-    {
-      "id": "14",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": "15",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": "16",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": "17",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": "18",
-      "name": "FinEdge Capital",
-      "location": "Delhi",
-      "industry": "Finance"
-    },
-    {
-      "id": 21,
+      "id": 6,
       "name": "parabola9",
       "location": "Nuzvid",
       "industry": "Software"
+    },
+    {
+      "id": 7,
+      "name": "CodeCraft Technologies",
+      "location": "Pune",
+      "industry": "Software"
+    },
+    {
+      "id": 8,
+      "name": "DataFlow Systems",
+      "location": "Gurgaon",
+      "industry": "Software"
+    },
+    {
+      "id": 9,
+      "name": "CloudFirst Innovations",
+      "location": "Noida",
+      "industry": "Software"
+    },
+    {
+      "id": 10,
+      "name": "ByteLogic Solutions",
+      "location": "Kochi",
+      "industry": "Software"
+    },
+    {
+      "id": 11,
+      "name": "NexGen Softwares",
+      "location": "Indore",
+      "industry": "Software"
+    },
+    {
+      "id": 12,
+      "name": "AgileCode Labs",
+      "location": "Ahmedabad",
+      "industry": "Software"
+    },
+    {
+      "id": 13,
+      "name": "TechStack Enterprises",
+      "location": "Coimbatore",
+      "industry": "Software"
+    },
+    {
+      "id": 14,
+      "name": "WealthWise Advisors",
+      "location": "Mumbai",
+      "industry": "Finance"
+    },
+    {
+      "id": 15,
+      "name": "CreditPlus Financial",
+      "location": "Bangalore",
+      "industry": "Finance"
+    },
+    {
+      "id": 16,
+      "name": "InvestSmart Capital",
+      "location": "Chennai",
+      "industry": "Finance"
+    },
+    {
+      "id": 17,
+      "name": "SecureBank Solutions",
+      "location": "Kolkata",
+      "industry": "Finance"
+    },
+    {
+      "id": 18,
+      "name": "MoneyTree Investments",
+      "location": "Jaipur",
+      "industry": "Finance"
+    },
+    {
+      "id": 19,
+      "name": "CapitalGrow Partners",
+      "location": "Lucknow",
+      "industry": "Finance"
+    },
+    {
+      "id": 20,
+      "name": "LifeCare Pharmaceuticals",
+      "location": "Hyderabad",
+      "industry": "Healthcare"
+    },
+    {
+      "id": 21,
+      "name": "MediCore Solutions",
+      "location": "Mumbai",
+      "industry": "Healthcare"
+    },
+    {
+      "id": 22,
+      "name": "HealthFirst Diagnostics",
+      "location": "Delhi",
+      "industry": "Healthcare"
+    },
+    {
+      "id": 23,
+      "name": "BioTech Innovations",
+      "location": "Bangalore",
+      "industry": "Healthcare"
+    },
+    {
+      "id": 24,
+      "name": "WellNess Labs",
+      "location": "Pune",
+      "industry": "Healthcare"
+    },
+    {
+      "id": 25,
+      "name": "PharmaCure Industries",
+      "location": "Chandigarh",
+      "industry": "Healthcare"
+    },
+    {
+      "id": 26,
+      "name": "SteelCore Industries",
+      "location": "Bhubaneswar",
+      "industry": "Manufacturing"
+    },
+    {
+      "id": 27,
+      "name": "AutoParts Solutions",
+      "location": "Chennai",
+      "industry": "Manufacturing"
+    },
+    {
+      "id": 28,
+      "name": "MachineTech Ltd",
+      "location": "Pune",
+      "industry": "Manufacturing"
+    },
+    {
+      "id": 29,
+      "name": "PlasticWorks Corp",
+      "location": "Vadodara",
+      "industry": "Manufacturing"
+    },
+    {
+      "id": 30,
+      "name": "TextileCraft Mills",
+      "location": "Surat",
+      "industry": "Manufacturing"
+    },
+    {
+      "id": 31,
+      "name": "ShopEasy Online",
+      "location": "Bangalore",
+      "industry": "E-commerce"
+    },
+    {
+      "id": 32,
+      "name": "RetailHub Solutions",
+      "location": "Delhi",
+      "industry": "E-commerce"
+    },
+    {
+      "id": 33,
+      "name": "QuickCart Technologies",
+      "location": "Mumbai",
+      "industry": "E-commerce"
+    },
+    {
+      "id": 34,
+      "name": "MarketPlace Innovations",
+      "location": "Hyderabad",
+      "industry": "E-commerce"
+    },
+    {
+      "id": 35,
+      "name": "EduTech Solutions",
+      "location": "Pune",
+      "industry": "Education"
+    },
+    {
+      "id": 36,
+      "name": "LearnSmart Platforms",
+      "location": "Bangalore",
+      "industry": "Education"
+    },
+    {
+      "id": 37,
+      "name": "SkillBuilder Academy",
+      "location": "Chennai",
+      "industry": "Education"
+    },
+    {
+      "id": 38,
+      "name": "KnowledgeHub Systems",
+      "location": "Delhi",
+      "industry": "Education"
+    },
+    {
+      "id": 39,
+      "name": "SolarPower Solutions",
+      "location": "Rajkot",
+      "industry": "Energy"
+    },
+    {
+      "id": 40,
+      "name": "GreenEnergy Corp",
+      "location": "Bangalore",
+      "industry": "Energy"
+    },
+    {
+      "id": 41,
+      "name": "PowerGrid Innovations",
+      "location": "Hyderabad",
+      "industry": "Energy"
+    },
+    {
+      "id": 42,
+      "name": "RenewableFirst Ltd",
+      "location": "Chennai",
+      "industry": "Energy"
+    },
+    {
+      "id": 43,
+      "name": "LogiFlow Systems",
+      "location": "Mumbai",
+      "industry": "Logistics"
+    },
+    {
+      "id": 44,
+      "name": "CargoConnect Solutions",
+      "location": "Delhi",
+      "industry": "Logistics"
+    },
+    {
+      "id": 45,
+      "name": "TransportEase Technologies",
+      "location": "Kolkata",
+      "industry": "Logistics"
+    },
+    {
+      "id": 46,
+      "name": "SupplyChain Masters",
+      "location": "Pune",
+      "industry": "Logistics"
+    },
+    {
+      "id": 47,
+      "name": "PropertyPro Developers",
+      "location": "Gurgaon",
+      "industry": "Real Estate"
+    },
+    {
+      "id": 48,
+      "name": "UrbanSpaces Ltd",
+      "location": "Noida",
+      "industry": "Real Estate"
+    },
+    {
+      "id": 49,
+      "name": "HomeCraft Builders",
+      "location": "Mumbai",
+      "industry": "Real Estate"
+    },
+    {
+      "id": 50,
+      "name": "CityScape Properties",
+      "location": "Bangalore",
+      "industry": "Real Estate"
+    },
+    {
+      "id": 51,
+      "name": "FarmFresh Organics",
+      "location": "Nashik",
+      "industry": "Agriculture"
+    },
+    {
+      "id": 52,
+      "name": "TravelSmart Agencies",
+      "location": "Goa",
+      "industry": "Travel & Tourism"
     }
   ]
 }

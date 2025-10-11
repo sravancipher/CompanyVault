@@ -11,7 +11,7 @@ export default function FilterBar({
   industries
 }) {
   return (
-    <Paper elevation={4} sx={{ p: 2, mb: 3 }}>
+    <Paper elevation={3} sx={{ p: 1, mb: 2 }}>
       <Grid container spacing={1}>
         <Grid item xs={12} sm={4} size="grow">
           <TextField

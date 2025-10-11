@@ -1,70 +1,253 @@
-# Getting Started with Create React App
+# Company Vault - Filter Fast Find Everything 🏢
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive web application for discovering companies across different industries and locations. Users can efficiently filter, search, and sort companies to find exactly what they're looking for.
 
-## Available Scripts
+## 📋 Features
 
-In the project directory, you can run:
+- **Industry Filtering**: Browse companies by specific industry categories
+- **Location-based Search**: Find companies in particular geographic locations  
+- **Company Search**: Search for companies by name
+- **Smart Sorting**: Sort company listings alphabetically
+- **Responsive Design**: Optimized for desktop and mobile devices
+- **Fast Performance**: Built with React and Material-UI for smooth user experience
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- **React.js**: Modern JavaScript framework for building user interfaces
+- **Material-UI**: Component library for consistent and beautiful styling
+- **Responsive Design**: Mobile-first approach for all screen sizes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend Options
+- **JSON Server**: Currently used for rapid development with built-in REST API
+- **Express.js**: Alternative backend option (previously implemented)
 
-### `npm test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- Node.js (version 18.14.0 or later)
+- npm or yarn package manager
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**
+```bash
+git clone <your-repository-url>
+cd company-vault
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies**
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install JSON Server globally** (if not already installed)
+```bash
+npm install -g json-server
+```
 
-### `npm run eject`
+### Running the Application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Start JSON Server (Backend)
+```bash
+json-server --watch db/db.json
+```
+This will start the JSON Server on `http://localhost:3000` with the following API endpoints:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| HTTP Method | URL            | Description              |
+| ----------- | -------------- | ------------------------ |
+| GET         | `/companies`   | Get all companies        |
+| GET         | `/companies/1` | Get company with id=1    |
+| POST        | `/companies`   | Add a new company        |
+| PUT/PATCH   | `/companies/1` | Update company with id=1 |
+| DELETE      | `/companies/1` | Delete company with id=1 |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Start React Application (Frontend)
+In a new terminal window:
+```bash
+npm start
+```
+This will start the React development server on `http://localhost:3001`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Alternative JSON Server Options:**
+```bash
+# Run on custom port
+json-server --watch db/db.json --port 4000
 
-## Learn More
+# Run with static file serving
+json-server --watch db/db.json --static ./public
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 Building for Production
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a production build:
+```bash
+npm run build
+```
+This generates a `build` folder with production-ready files.
 
-### Code Splitting
+## 🌐 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Frontend Deployment (Netlify) - Dashboard Method
 
-### Analyzing the Bundle Size
+1. **Build your project**
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. **Deploy via Netlify Dashboard**
+   - Visit [Netlify Dashboard](https://app.netlify.com)
+   - Sign in to your account
+   - Click "New site from Git" or drag & drop the `build` folder
+   - If using Git integration:
+     - Connect your GitHub/GitLab/Bitbucket repository
+     - Set build command: `npm run build`
+     - Set publish directory: `build`
+     - Click "Deploy site"
+   - Your React app will be live with a generated URL
 
-### Making a Progressive Web App
+3. **Custom Domain (Optional)**
+   - Go to Site settings → Domain management
+   - Add your custom domain
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Backend Deployment (Vercel) - Dashboard Method
 
-### Advanced Configuration
+1. **Prepare for Vercel Deployment**
+   - The `api/companies.js` file is already configured for Vercel deployment
+   - This file serves as the serverless function endpoint
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. **Deploy via Vercel Dashboard**
+   - Visit [Vercel Dashboard](https://vercel.com/dashboard)
+   - Sign in to your account
+   - Click "New Project"
+   - Import your GitHub/GitLab/Bitbucket repository
+   - Vercel will automatically detect the project settings
+   - Click "Deploy"
+   - Your JSON API will be available at `https://your-project.vercel.app/api/companies`
 
-### Deployment
+3. **Automatic Deployments**
+   - Every push to your main branch will trigger automatic redeployment
+   - Monitor deployments in the Vercel dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📁 Project Structure
 
-### `npm run build` fails to minify
+```
+company-vault/
+├── public/
+│   ├── index.html
+│   └── ...
+├── api/
+│   └── companies.js     # Vercel serverless function
+├── src/
+│   ├── components/
+│   │   ├── CompanyList.jsx
+│   │   ├── FilterBar.jsx
+│   │   └── SearchBar.jsx
+│   └── App.js
+├── db/
+│   └── db.json          # JSON Server database
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🗄️ Data Structure
+
+The `db/db.json` file should follow this structure:
+```json
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Company Name",
+      "industry": "Technology",
+      "location": "New York",
+      "description": "Company description",
+      "website": "https://example.com"
+    }
+  ]
+}
+```
+
+## 🔧 API Endpoints
+
+### Local Development (JSON Server)
+When JSON Server is running locally:
+- **GET** `/companies` - Retrieve all companies
+- **GET** `/companies?industry=Technology` - Filter by industry
+- **GET** `/companies?location=New York` - Filter by location  
+- **GET** `/companies?q=search_term` - Search companies
+
+### Production (Vercel)
+When deployed on Vercel:
+- **GET** `https://your-project.vercel.app/api/companies` - All endpoints through serverless function
+
+## ⚙️ Environment Configuration
+
+### Development
+- JSON Server runs on `http://localhost:3000`
+- React development server runs on `http://localhost:3001`
+
+### Production
+- Frontend: Deployed on Netlify
+- Backend API: Deployed on Vercel as serverless functions
+
+## 🔄 Development Workflow
+
+1. **Local Development**
+   - Start JSON Server: `json-server --watch db/db.json`
+   - Start React app: `npm start`
+   - Make your changes and test locally
+
+2. **Deployment**
+   - Push changes to your repository
+   - Netlify automatically rebuilds and deploys frontend
+   - Vercel automatically redeploys API functions
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 🆘 Support
+
+If you encounter any issues:
+1. **Local Development:**
+   - Check that all dependencies are properly installed
+   - Ensure JSON Server is running before starting the React app
+   - Verify your `db/db.json` file structure matches the expected format
+
+2. **Deployment Issues:**
+   - **Netlify**: Check build logs in the Netlify dashboard
+   - **Vercel**: Monitor deployment status in Vercel dashboard
+   - Ensure all environment variables are properly configured
+
+## 🚀 Quick Start Commands
+
+```bash
+# Clone and setup
+git clone <your-repository-url>
+cd company-vault
+npm install
+
+# Development
+json-server --watch db/db.json    # Terminal 1
+npm start                         # Terminal 2
+
+# Build for production
+npm run build
+```
+
+---
+
+**Live Demo**: 
+- Frontend: [Your Netlify URL]
+- API: [Your Vercel API URL]
+
+Built with ❤️ using React.js and Material-UI

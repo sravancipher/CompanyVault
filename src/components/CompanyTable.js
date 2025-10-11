@@ -1,11 +1,5 @@
-import React,{useRef, useState} from "react";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
+import React,{ useState} from "react";
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow,
   Paper,
   Typography,
   Pagination,
@@ -15,18 +9,20 @@ import {
 } from "@mui/material";
 
 export default function CompanyTable({ companies }) {
+
+
   const [page,setPage]=useState(1)
-  const [sortOrder, setSortOrder] = useState("desc"); // "asc" or "desc"
+  const [sortOrder, setSortOrder] = useState("desc"); 
   
   const handleChange = (event, value) => {
     console.log("value inside handlechange",value);
     setPage(value);
   };
-  let h=useRef (null);
+  
   
   if (!companies.length)
     return (
-      <Typography ref={h} variant="h6" align="center" sx={{ mt: 3 }}>
+      <Typography variant="h6" align="center" sx={{ mt: 3 }}>
         No companies found.
       </Typography>
     );
@@ -59,9 +55,8 @@ export default function CompanyTable({ companies }) {
           <TableRow sx={{ backgroundColor: "#1976d2" }}>
             {/* <TableCell sx={{ color: "white", fontWeight: "bold" }}>Name</TableCell> */}
             <TableCell sx={{ color: "white", fontWeight: "bold" }}>
-                <TableSortLabel
-                  active={true}
-                  direction={sortOrder}
+                <TableSortLabel active={true} direction={sortOrder}
+
                   onClick={handleSort}
                   sx={{ color: "white" }}
                 >
@@ -86,7 +81,7 @@ export default function CompanyTable({ companies }) {
     <Box
       sx={{
         display: "flex",
-        justifyContent: { xs: "center", lg: "flex-end" }, // center on small, right on large
+        justifyContent: { xs: "center", lg: "flex-end" },
         m: 2
       }}
     >

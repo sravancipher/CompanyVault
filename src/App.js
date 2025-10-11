@@ -8,9 +8,10 @@ function App() {
   const [companies, setCompanies] = useState([]);
   const [filteredCompanies, setFilteredCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
-
   const [searchTerm, setSearchTerm] = useState("");
   const [location, setLocation] = useState("");
+
+
   const [industry, setIndustry] = useState("");
 
   useEffect(() => {
@@ -62,19 +63,12 @@ function App() {
     
     <Container maxWidth="xl" sx={{backgroundColor:"#1976d2",borderBottomLeftRadius:8,borderBottomRightRadius:8 }}>
       
-      <Typography variant="h4"sx={{fontFamily:  "'Exo 2', sans-serif",display:"flex",color:"white", justifyContent: { xs: "center", lg: "flex-start" },alignItems:"center",pt:1}}><HubIcon sx={{color:"black",fontSize:40,ml:1,mr:1}}/>Company Vault</Typography>
+          <Typography variant="h4"sx={{fontFamily:  "'Exo 2', sans-serif",display:"flex",color:"white", justifyContent: { xs: "center", lg: "flex-start" },alignItems:"center",pt:1}}><HubIcon sx={{color:"black",fontSize:40,ml:1,mr:1}}/>Company Vault</Typography>
       <Typography variant="subtitle1" sx={{ color: "white", textAlign: { xs: "center", md: "left" }, fontFamily: "'Nunito Sans', sans-serif", mt:0,pl: { md: 13, xs:13 }}}> Filter Fast, Find Everything </Typography>
     </Container>
     <Container sx={{ py: 5,height:"550px" }}>
 
-      <FilterBar
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        location={location}
-        setLocation={setLocation}
-        industry={industry}
-        setIndustry={setIndustry}
-        locations={locations}
+      <FilterBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} location={location} setLocation={setLocation} industry={industry} setIndustry={setIndustry} locations={locations}
         industries={industries}
       />
 

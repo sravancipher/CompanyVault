@@ -299,18 +299,6 @@
       "name": "CityScape Properties",
       "location": "Bangalore",
       "industry": "Real Estate"
-    },
-    {
-      "id": 51,
-      "name": "FarmFresh Organics",
-      "location": "Nashik",
-      "industry": "Agriculture"
-    },
-    {
-      "id": 52,
-      "name": "TravelSmart Agencies",
-      "location": "Goa",
-      "industry": "Travel & Tourism"
     }
   ]
 }

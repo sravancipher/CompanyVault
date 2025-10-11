@@ -150,13 +150,11 @@ The `db/db.json` file should follow this structure:
 ```json
 {
   "companies": [
-    {
-      "id": 1,
-      "name": "Company Name",
-      "industry": "Technology",
-      "location": "New York",
-      "description": "Company description",
-      "website": "https://example.com"
+   {
+      "id": 30,
+      "name": "TextileCraft Mills",
+      "location": "Surat",
+      "industry": "Manufacturing"
     }
   ]
 }

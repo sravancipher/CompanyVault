@@ -1,4 +1,4 @@
-# Company Vault - Filter Fast Find Everything 🏢
+# Company Vault - Filter Fast Find Everything
 
 A responsive web application for discovering companies across different industries and locations. Users can efficiently filter, search, and sort companies to find exactly what they're looking for.
 

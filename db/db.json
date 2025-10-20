@@ -4,301 +4,1381 @@
       "id": 1,
       "name": "TechNova Solutions",
       "location": "Hyderabad",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.2,
+      "employeeCount": 601,
+      "foundedYear": 2012,
+      "revenue": 96,
+      "reviews": [
+        {
+          "reviewerName": "Vikram",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 3,
+          "comment": "Work-life balance can improve."
+        }
+      ]
     },
     {
       "id": 2,
       "name": "GreenLeaf Foods",
       "location": "Mumbai",
-      "industry": "Food & Beverages"
+      "industry": "Food & Beverages",
+      "rating": 4.4,
+      "employeeCount": 208,
+      "foundedYear": 2011,
+      "revenue": 167,
+      "reviews": [
+        {
+          "reviewerName": "Sneha",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Varun",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        }
+      ]
     },
     {
       "id": 3,
       "name": "BlueSky Aerospace",
       "location": "Bangalore",
-      "industry": "Aerospace"
+      "industry": "Aerospace",
+      "rating": 4.8,
+      "employeeCount": 671,
+      "foundedYear": 2016,
+      "revenue": 148,
+      "reviews": [
+        {
+          "reviewerName": "Meera",
+          "rating": 3,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 5,
+          "comment": "Work-life balance can improve."
+        }
+      ]
     },
     {
       "id": 4,
       "name": "UrbanBuild Constructions",
       "location": "Chennai",
-      "industry": "Construction"
+      "industry": "Construction",
+      "rating": 4.7,
+      "employeeCount": 125,
+      "foundedYear": 2018,
+      "revenue": 120,
+      "reviews": [
+        {
+          "reviewerName": "Sneha",
+          "rating": 3,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Neha",
+          "rating": 4,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Pooja",
+          "rating": 5,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 3,
+          "comment": "Management is helpful."
+        }
+      ]
     },
     {
       "id": 5,
       "name": "FinEdge Capital",
       "location": "Delhi",
-      "industry": "Finance"
+      "industry": "Finance",
+      "rating": 4.5,
+      "employeeCount": 645,
+      "foundedYear": 2006,
+      "revenue": 47,
+      "reviews": [
+        {
+          "reviewerName": "Sonal",
+          "rating": 4,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 5,
+          "comment": "Management is helpful."
+        }
+      ]
     },
     {
       "id": 6,
       "name": "parabola9",
       "location": "Nuzvid",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.6,
+      "employeeCount": 624,
+      "foundedYear": 2021,
+      "revenue": 176,
+      "reviews": [
+        {
+          "reviewerName": "Pooja",
+          "rating": 5,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Sneha",
+          "rating": 3,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 5,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Rahul",
+          "rating": 3,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Pooja",
+          "rating": 5,
+          "comment": "Work-life balance can improve."
+        }
+      ]
     },
     {
       "id": 7,
       "name": "CodeCraft Technologies",
       "location": "Pune",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.4,
+      "employeeCount": 180,
+      "foundedYear": 2016,
+      "revenue": 94,
+      "reviews": [
+        {
+          "reviewerName": "Deepak",
+          "rating": 5,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Aditya",
+          "rating": 3,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Neha",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Arjun",
+          "rating": 4,
+          "comment": "Management is helpful."
+        }
+      ]
     },
     {
       "id": 8,
       "name": "DataFlow Systems",
       "location": "Gurgaon",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.5,
+      "employeeCount": 751,
+      "foundedYear": 2005,
+      "revenue": 179,
+      "reviews": [
+        {
+          "reviewerName": "Sonal",
+          "rating": 4,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 3,
+          "comment": "Management is helpful."
+        }
+      ]
     },
     {
       "id": 9,
       "name": "CloudFirst Innovations",
       "location": "Noida",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.1,
+      "employeeCount": 628,
+      "foundedYear": 2016,
+      "revenue": 194,
+      "reviews": [
+        {
+          "reviewerName": "Priya",
+          "rating": 5,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Sneha",
+          "rating": 5,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 4,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Pooja",
+          "rating": 5,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Amit",
+          "rating": 4,
+          "comment": "Good growth opportunities."
+        }
+      ]
     },
     {
       "id": 10,
       "name": "ByteLogic Solutions",
       "location": "Kochi",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.1,
+      "employeeCount": 328,
+      "foundedYear": 2018,
+      "revenue": 93,
+      "reviews": [
+        {
+          "reviewerName": "Pooja",
+          "rating": 4,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Priya",
+          "rating": 4,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Priya",
+          "rating": 4,
+          "comment": "Work culture is nice."
+        }
+      ]
     },
     {
       "id": 11,
       "name": "NexGen Softwares",
       "location": "Indore",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.7,
+      "employeeCount": 554,
+      "foundedYear": 2014,
+      "revenue": 67,
+      "reviews": [
+        {
+          "reviewerName": "Sonal",
+          "rating": 4,
+          "comment": "Great environment and supportive team."
+        }
+      ]
     },
     {
       "id": 12,
       "name": "AgileCode Labs",
       "location": "Ahmedabad",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.5,
+      "employeeCount": 653,
+      "foundedYear": 2014,
+      "revenue": 250,
+      "reviews": [
+        {
+          "reviewerName": "Arjun",
+          "rating": 4,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Amit",
+          "rating": 3,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Sneha",
+          "rating": 4,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Vikram",
+          "rating": 4,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 5,
+          "comment": "Nice office and facilities."
+        }
+      ]
     },
     {
       "id": 13,
       "name": "TechStack Enterprises",
       "location": "Coimbatore",
-      "industry": "Software"
+      "industry": "Software",
+      "rating": 4.4,
+      "employeeCount": 703,
+      "foundedYear": 2008,
+      "revenue": 150,
+      "reviews": [
+        {
+          "reviewerName": "Priya",
+          "rating": 4,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        }
+      ]
     },
     {
       "id": 14,
       "name": "WealthWise Advisors",
       "location": "Mumbai",
-      "industry": "Finance"
+      "industry": "Finance",
+      "rating": 4.4,
+      "employeeCount": 454,
+      "foundedYear": 2014,
+      "revenue": 203,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 4,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Rahul",
+          "rating": 4,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Rohit",
+          "rating": 5,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Sneha",
+          "rating": 3,
+          "comment": "Management is helpful."
+        }
+      ]
     },
     {
       "id": 15,
       "name": "CreditPlus Financial",
       "location": "Bangalore",
-      "industry": "Finance"
+      "industry": "Finance",
+      "rating": 4.3,
+      "employeeCount": 711,
+      "foundedYear": 2018,
+      "revenue": 60,
+      "reviews": [
+        {
+          "reviewerName": "Deepak",
+          "rating": 3,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 4,
+          "comment": "Work culture is nice."
+        }
+      ]
     },
     {
       "id": 16,
       "name": "InvestSmart Capital",
       "location": "Chennai",
-      "industry": "Finance"
+      "industry": "Finance",
+      "rating": 4.7,
+      "employeeCount": 226,
+      "foundedYear": 2022,
+      "revenue": 118,
+      "reviews": [
+        {
+          "reviewerName": "Deepak",
+          "rating": 3,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Neha",
+          "rating": 4,
+          "comment": "Good learning for freshers."
+        }
+      ]
     },
     {
       "id": 17,
       "name": "SecureBank Solutions",
       "location": "Kolkata",
-      "industry": "Finance"
+      "industry": "Finance",
+      "rating": 4.8,
+      "employeeCount": 590,
+      "foundedYear": 2012,
+      "revenue": 181,
+      "reviews": [
+        {
+          "reviewerName": "Arjun",
+          "rating": 5,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Varun",
+          "rating": 3,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Rohit",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Neha",
+          "rating": 4,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 4,
+          "comment": "Some projects are challenging but rewarding."
+        }
+      ]
     },
     {
       "id": 18,
       "name": "MoneyTree Investments",
       "location": "Jaipur",
-      "industry": "Finance"
+      "industry": "Finance",
+      "rating": 3.9,
+      "employeeCount": 134,
+      "foundedYear": 2021,
+      "revenue": 284,
+      "reviews": [
+        {
+          "reviewerName": "Arjun",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Rahul",
+          "rating": 3,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Rahul",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        }
+      ]
     },
     {
       "id": 19,
       "name": "CapitalGrow Partners",
       "location": "Lucknow",
-      "industry": "Finance"
+      "industry": "Finance",
+      "rating": 4.8,
+      "employeeCount": 430,
+      "foundedYear": 2006,
+      "revenue": 242,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 3,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Deepak",
+          "rating": 3,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 3,
+          "comment": "Work-life balance can improve."
+        }
+      ]
     },
     {
       "id": 20,
       "name": "LifeCare Pharmaceuticals",
       "location": "Hyderabad",
-      "industry": "Healthcare"
+      "industry": "Healthcare",
+      "rating": 3.8,
+      "employeeCount": 726,
+      "foundedYear": 2020,
+      "revenue": 297,
+      "reviews": [
+        {
+          "reviewerName": "Varun",
+          "rating": 4,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Deepak",
+          "rating": 4,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Aditya",
+          "rating": 5,
+          "comment": "Some projects are challenging but rewarding."
+        }
+      ]
     },
     {
       "id": 21,
       "name": "MediCore Solutions",
       "location": "Mumbai",
-      "industry": "Healthcare"
+      "industry": "Healthcare",
+      "rating": 4.7,
+      "employeeCount": 121,
+      "foundedYear": 2011,
+      "revenue": 130,
+      "reviews": [
+        {
+          "reviewerName": "Vikram",
+          "rating": 3,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 5,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Rohit",
+          "rating": 4,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Amit",
+          "rating": 4,
+          "comment": "Good learning for freshers."
+        }
+      ]
     },
     {
       "id": 22,
       "name": "HealthFirst Diagnostics",
       "location": "Delhi",
-      "industry": "Healthcare"
+      "industry": "Healthcare",
+      "rating": 4.4,
+      "employeeCount": 582,
+      "foundedYear": 2022,
+      "revenue": 156,
+      "reviews": [
+        {
+          "reviewerName": "Varun",
+          "rating": 5,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Pooja",
+          "rating": 4,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 4,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Rahul",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 4,
+          "comment": "Great environment and supportive team."
+        }
+      ]
     },
     {
       "id": 23,
       "name": "BioTech Innovations",
       "location": "Bangalore",
-      "industry": "Healthcare"
+      "industry": "Healthcare",
+      "rating": 4.8,
+      "employeeCount": 467,
+      "foundedYear": 2018,
+      "revenue": 220,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Vikram",
+          "rating": 4,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Deepak",
+          "rating": 3,
+          "comment": "Great environment and supportive team."
+        }
+      ]
     },
     {
       "id": 24,
       "name": "WellNess Labs",
       "location": "Pune",
-      "industry": "Healthcare"
+      "industry": "Healthcare",
+      "rating": 4.8,
+      "employeeCount": 664,
+      "foundedYear": 2019,
+      "revenue": 117,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Neha",
+          "rating": 3,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Priya",
+          "rating": 5,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Vikram",
+          "rating": 4,
+          "comment": "Great environment and supportive team."
+        }
+      ]
     },
     {
       "id": 25,
       "name": "PharmaCure Industries",
       "location": "Chandigarh",
-      "industry": "Healthcare"
+      "industry": "Healthcare",
+      "rating": 4.7,
+      "employeeCount": 277,
+      "foundedYear": 2011,
+      "revenue": 71,
+      "reviews": [
+        {
+          "reviewerName": "Arjun",
+          "rating": 4,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Pooja",
+          "rating": 3,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 3,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Varun",
+          "rating": 3,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Amit",
+          "rating": 3,
+          "comment": "Good growth opportunities."
+        }
+      ]
     },
     {
       "id": 26,
       "name": "SteelCore Industries",
       "location": "Bhubaneswar",
-      "industry": "Manufacturing"
+      "industry": "Manufacturing",
+      "rating": 4.5,
+      "employeeCount": 387,
+      "foundedYear": 2022,
+      "revenue": 268,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Deepak",
+          "rating": 5,
+          "comment": "Work culture is nice."
+        }
+      ]
     },
     {
       "id": 27,
       "name": "AutoParts Solutions",
       "location": "Chennai",
-      "industry": "Manufacturing"
+      "industry": "Manufacturing",
+      "rating": 4.7,
+      "employeeCount": 682,
+      "foundedYear": 2007,
+      "revenue": 124,
+      "reviews": [
+        {
+          "reviewerName": "Neha",
+          "rating": 5,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Neha",
+          "rating": 3,
+          "comment": "Great environment and supportive team."
+        }
+      ]
     },
     {
       "id": 28,
       "name": "MachineTech Ltd",
       "location": "Pune",
-      "industry": "Manufacturing"
+      "industry": "Manufacturing",
+      "rating": 3.9,
+      "employeeCount": 328,
+      "foundedYear": 2011,
+      "revenue": 207,
+      "reviews": [
+        {
+          "reviewerName": "Deepak",
+          "rating": 3,
+          "comment": "Good learning for freshers."
+        }
+      ]
     },
     {
       "id": 29,
       "name": "PlasticWorks Corp",
       "location": "Vadodara",
-      "industry": "Manufacturing"
+      "industry": "Manufacturing",
+      "rating": 4.7,
+      "employeeCount": 288,
+      "foundedYear": 2011,
+      "revenue": 234,
+      "reviews": [
+        {
+          "reviewerName": "Varun",
+          "rating": 5,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 4,
+          "comment": "Work culture is nice."
+        }
+      ]
     },
     {
       "id": 30,
       "name": "TextileCraft Mills",
       "location": "Surat",
-      "industry": "Manufacturing"
+      "industry": "Manufacturing",
+      "rating": 4.4,
+      "employeeCount": 797,
+      "foundedYear": 2022,
+      "revenue": 208,
+      "reviews": [
+        {
+          "reviewerName": "Rahul",
+          "rating": 5,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 3,
+          "comment": "Management is helpful."
+        }
+      ]
     },
     {
       "id": 31,
       "name": "ShopEasy Online",
       "location": "Bangalore",
-      "industry": "E-commerce"
+      "industry": "E-commerce",
+      "rating": 4.7,
+      "employeeCount": 394,
+      "foundedYear": 2008,
+      "revenue": 274,
+      "reviews": [
+        {
+          "reviewerName": "Meera",
+          "rating": 4,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Aditya",
+          "rating": 4,
+          "comment": "Some projects are challenging but rewarding."
+        }
+      ]
     },
     {
       "id": 32,
       "name": "RetailHub Solutions",
       "location": "Delhi",
-      "industry": "E-commerce"
+      "industry": "E-commerce",
+      "rating": 4.2,
+      "employeeCount": 647,
+      "foundedYear": 2014,
+      "revenue": 110,
+      "reviews": [
+        {
+          "reviewerName": "Meera",
+          "rating": 3,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Vikram",
+          "rating": 5,
+          "comment": "Good growth opportunities."
+        }
+      ]
     },
     {
       "id": 33,
       "name": "QuickCart Technologies",
       "location": "Mumbai",
-      "industry": "E-commerce"
+      "industry": "E-commerce",
+      "rating": 3.9,
+      "employeeCount": 189,
+      "foundedYear": 2015,
+      "revenue": 24,
+      "reviews": [
+        {
+          "reviewerName": "Amit",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Pooja",
+          "rating": 5,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Rohit",
+          "rating": 5,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Priya",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        }
+      ]
     },
     {
       "id": 34,
       "name": "MarketPlace Innovations",
       "location": "Hyderabad",
-      "industry": "E-commerce"
+      "industry": "E-commerce",
+      "rating": 4.5,
+      "employeeCount": 384,
+      "foundedYear": 2009,
+      "revenue": 215,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 4,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Varun",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Varun",
+          "rating": 4,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 3,
+          "comment": "Work-life balance can improve."
+        }
+      ]
     },
     {
       "id": 35,
       "name": "EduTech Solutions",
       "location": "Pune",
-      "industry": "Education"
+      "industry": "Education",
+      "rating": 3.9,
+      "employeeCount": 322,
+      "foundedYear": 2007,
+      "revenue": 202,
+      "reviews": [
+        {
+          "reviewerName": "Pooja",
+          "rating": 5,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Arjun",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Rohit",
+          "rating": 4,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 5,
+          "comment": "Some projects are challenging but rewarding."
+        }
+      ]
     },
     {
       "id": 36,
       "name": "LearnSmart Platforms",
       "location": "Bangalore",
-      "industry": "Education"
+      "industry": "Education",
+      "rating": 4.0,
+      "employeeCount": 311,
+      "foundedYear": 2005,
+      "revenue": 220,
+      "reviews": [
+        {
+          "reviewerName": "Varun",
+          "rating": 4,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 4,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Sneha",
+          "rating": 4,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Rahul",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Rohit",
+          "rating": 3,
+          "comment": "Nice office and facilities."
+        }
+      ]
     },
     {
       "id": 37,
       "name": "SkillBuilder Academy",
       "location": "Chennai",
-      "industry": "Education"
+      "industry": "Education",
+      "rating": 4.7,
+      "employeeCount": 147,
+      "foundedYear": 2022,
+      "revenue": 147,
+      "reviews": [
+        {
+          "reviewerName": "Sonal",
+          "rating": 4,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Amit",
+          "rating": 5,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Aditya",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 5,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Pooja",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        }
+      ]
     },
     {
       "id": 38,
       "name": "KnowledgeHub Systems",
       "location": "Delhi",
-      "industry": "Education"
+      "industry": "Education",
+      "rating": 4.4,
+      "employeeCount": 305,
+      "foundedYear": 2016,
+      "revenue": 113,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Arjun",
+          "rating": 5,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Sonal",
+          "rating": 3,
+          "comment": "Nice office and facilities."
+        }
+      ]
     },
     {
       "id": 39,
       "name": "SolarPower Solutions",
       "location": "Rajkot",
-      "industry": "Energy"
+      "industry": "Energy",
+      "rating": 4.5,
+      "employeeCount": 137,
+      "foundedYear": 2015,
+      "revenue": 142,
+      "reviews": [
+        {
+          "reviewerName": "Sneha",
+          "rating": 4,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 4,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Arjun",
+          "rating": 3,
+          "comment": "Work culture is nice."
+        }
+      ]
     },
     {
       "id": 40,
       "name": "GreenEnergy Corp",
       "location": "Bangalore",
-      "industry": "Energy"
+      "industry": "Energy",
+      "rating": 4.5,
+      "employeeCount": 750,
+      "foundedYear": 2013,
+      "revenue": 286,
+      "reviews": [
+        {
+          "reviewerName": "Kiran",
+          "rating": 5,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Vikram",
+          "rating": 5,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Deepak",
+          "rating": 4,
+          "comment": "Management is helpful."
+        }
+      ]
     },
     {
       "id": 41,
       "name": "PowerGrid Innovations",
       "location": "Hyderabad",
-      "industry": "Energy"
+      "industry": "Energy",
+      "rating": 3.8,
+      "employeeCount": 130,
+      "foundedYear": 2009,
+      "revenue": 260,
+      "reviews": [
+        {
+          "reviewerName": "Pooja",
+          "rating": 3,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Sneha",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 4,
+          "comment": "Management is helpful."
+        }
+      ]
     },
     {
       "id": 42,
       "name": "RenewableFirst Ltd",
       "location": "Chennai",
-      "industry": "Energy"
+      "industry": "Energy",
+      "rating": 3.9,
+      "employeeCount": 195,
+      "foundedYear": 2017,
+      "revenue": 292,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 4,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Neha",
+          "rating": 4,
+          "comment": "Nice office and facilities."
+        }
+      ]
     },
     {
       "id": 43,
       "name": "LogiFlow Systems",
       "location": "Mumbai",
-      "industry": "Logistics"
+      "industry": "Logistics",
+      "rating": 4.7,
+      "employeeCount": 124,
+      "foundedYear": 2010,
+      "revenue": 239,
+      "reviews": [
+        {
+          "reviewerName": "Pooja",
+          "rating": 3,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 3,
+          "comment": "Work-life balance can improve."
+        }
+      ]
     },
     {
       "id": 44,
       "name": "CargoConnect Solutions",
       "location": "Delhi",
-      "industry": "Logistics"
+      "industry": "Logistics",
+      "rating": 3.9,
+      "employeeCount": 432,
+      "foundedYear": 2008,
+      "revenue": 118,
+      "reviews": [
+        {
+          "reviewerName": "Rohit",
+          "rating": 5,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 3,
+          "comment": "Great environment and supportive team."
+        }
+      ]
     },
     {
       "id": 45,
       "name": "TransportEase Technologies",
       "location": "Kolkata",
-      "industry": "Logistics"
+      "industry": "Logistics",
+      "rating": 4.7,
+      "employeeCount": 260,
+      "foundedYear": 2005,
+      "revenue": 35,
+      "reviews": [
+        {
+          "reviewerName": "Sneha",
+          "rating": 3,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Aditya",
+          "rating": 3,
+          "comment": "Work-life balance can improve."
+        },
+        {
+          "reviewerName": "Arjun",
+          "rating": 5,
+          "comment": "Good growth opportunities."
+        }
+      ]
     },
     {
       "id": 46,
       "name": "SupplyChain Masters",
       "location": "Pune",
-      "industry": "Logistics"
+      "industry": "Logistics",
+      "rating": 3.8,
+      "employeeCount": 699,
+      "foundedYear": 2009,
+      "revenue": 268,
+      "reviews": [
+        {
+          "reviewerName": "Meera",
+          "rating": 5,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Meera",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Sneha",
+          "rating": 3,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 3,
+          "comment": "Great environment and supportive team."
+        }
+      ]
     },
     {
       "id": 47,
       "name": "PropertyPro Developers",
       "location": "Gurgaon",
-      "industry": "Real Estate"
+      "industry": "Real Estate",
+      "rating": 4.6,
+      "employeeCount": 719,
+      "foundedYear": 2006,
+      "revenue": 289,
+      "reviews": [
+        {
+          "reviewerName": "Amit",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Sneha",
+          "rating": 4,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Varun",
+          "rating": 4,
+          "comment": "Work culture is nice."
+        },
+        {
+          "reviewerName": "Rohit",
+          "rating": 5,
+          "comment": "Work-life balance can improve."
+        }
+      ]
     },
     {
       "id": 48,
       "name": "UrbanSpaces Ltd",
       "location": "Noida",
-      "industry": "Real Estate"
+      "industry": "Real Estate",
+      "rating": 4.0,
+      "employeeCount": 179,
+      "foundedYear": 2017,
+      "revenue": 30,
+      "reviews": [
+        {
+          "reviewerName": "Priya",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        }
+      ]
     },
     {
       "id": 49,
       "name": "HomeCraft Builders",
       "location": "Mumbai",
-      "industry": "Real Estate"
+      "industry": "Real Estate",
+      "rating": 4.4,
+      "employeeCount": 180,
+      "foundedYear": 2016,
+      "revenue": 80,
+      "reviews": [
+        {
+          "reviewerName": "Kiran",
+          "rating": 3,
+          "comment": "Some projects are challenging but rewarding."
+        },
+        {
+          "reviewerName": "Neha",
+          "rating": 3,
+          "comment": "Good growth opportunities."
+        },
+        {
+          "reviewerName": "Kiran",
+          "rating": 4,
+          "comment": "Great environment and supportive team."
+        },
+        {
+          "reviewerName": "Varun",
+          "rating": 5,
+          "comment": "Good learning for freshers."
+        },
+        {
+          "reviewerName": "Amit",
+          "rating": 5,
+          "comment": "Work culture is nice."
+        }
+      ]
     },
     {
       "id": 50,
       "name": "CityScape Properties",
       "location": "Bangalore",
-      "industry": "Real Estate"
+      "industry": "Real Estate",
+      "rating": 4.4,
+      "employeeCount": 238,
+      "foundedYear": 2006,
+      "revenue": 178,
+      "reviews": [
+        {
+          "reviewerName": "Amit",
+          "rating": 5,
+          "comment": "Management is helpful."
+        },
+        {
+          "reviewerName": "Vikram",
+          "rating": 4,
+          "comment": "Nice office and facilities."
+        },
+        {
+          "reviewerName": "Aditya",
+          "rating": 4,
+          "comment": "Management is helpful."
+        }
+      ]
     }
   ]
 }

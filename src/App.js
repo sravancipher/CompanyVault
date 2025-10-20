@@ -10,7 +10,15 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
   const [location, setLocation] = useState("");
-
+  
+  const [filters, setFilters] = React.useState({
+  location: "",
+  industry: "",
+  rating: [0, 5],
+  revenue: [0, 500],
+  employeeCount: [0, 1000],
+  foundedYear: [1980, 2025],
+});
 
   const [industry, setIndustry] = useState("");
 
@@ -32,9 +40,9 @@ function App() {
   }, []);
   
   useEffect(() => {
-    fetch("https://company-vault.vercel.app/api/companies")
+    // fetch("https://company-vault.vercel.app/api/companies")
     
-    // fetch("http://localhost:5001/companies")
+    fetch("http://localhost:5000/companies")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -45,18 +53,26 @@ function App() {
       .catch(() => setLoading(false));
   }, []);
 
-  useEffect(() => {
-    let filtered = companies.filter(
-      (c) =>
-        c.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
-        (location ? c.location === location : true) &&
-        (industry ? c.industry === industry : true)
-    );
-    setFilteredCompanies(filtered);
-  }, [searchTerm, location, industry, companies]);
+useEffect(() => {
+  let filtered = companies.filter((c) => {
+    const matchesName = c.name.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesLocation = filters.location ? c.location === filters.location : true;
+    const matchesIndustry = filters.industry ? c.industry === filters.industry : true;
+    const matchesRating = c.rating >= filters.rating[0] && c.rating <= filters.rating[1];
+    const matchesRevenue = c.revenue >= filters.revenue[0] && c.revenue <= filters.revenue[1];
+    const matchesEmployees = c.employeeCount >= filters.employeeCount[0] && c.employeeCount <= filters.employeeCount[1];
+    const matchesFounded = c.foundedYear >= filters.foundedYear[0] && c.foundedYear <= filters.foundedYear[1];
+
+    return matchesName && matchesLocation && matchesIndustry &&
+           matchesRating && matchesRevenue && matchesEmployees && matchesFounded;
+  });
+
+  setFilteredCompanies(filtered);
+}, [searchTerm, filters, companies]);
 
   const locations = [...new Set(companies.map((c) => c.location))];
   const industries = [...new Set(companies.map((c) => c.industry))];
+  
 
   return (
     <>
@@ -68,9 +84,15 @@ function App() {
     </Container>
     <Container sx={{ py: 5,height:"550px" }}>
 
-      <FilterBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} location={location} setLocation={setLocation} industry={industry} setIndustry={setIndustry} locations={locations}
-        industries={industries}
-      />
+      <FilterBar
+  searchTerm={searchTerm}
+  setSearchTerm={setSearchTerm}
+  filters={filters}
+  setFilters={setFilters}
+  locations={locations}
+  industries={industries}
+/>
+
 
       {loading ? (
         <CircularProgress sx={{ display: "block", mx: "auto", mt: 5 }} />
@@ -80,8 +102,9 @@ function App() {
       
     </Container>
    <Container maxWidth="xl" sx={{ mt: "auto" }}>
-        <Footer />
+        <Footer/>
       </Container>
+    
     </>
   );
 }

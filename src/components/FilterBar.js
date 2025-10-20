@@ -1,12 +1,12 @@
 import React from "react";
 import { TextField, MenuItem, Grid, Paper } from "@mui/material";
+import FilterDrawer from "./FilterDrawer";
+
 export default function FilterBar({
   searchTerm,
   setSearchTerm,
-  location,
-  setLocation,
-  industry,
-  setIndustry,
+  filters,
+  setFilters,
   locations,
   industries
 }) {
@@ -17,7 +17,7 @@ export default function FilterBar({
           <TextField label="Search by Name" fullWidth variant="outlined" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}
           />
         </Grid>
-
+{/* 
         <Grid item xs={12} sm={4} size="grow">
           <TextField select label="Filter by Location" fullWidth value={location} onChange={(e) => setLocation(e.target.value)}
           >
@@ -39,6 +39,16 @@ export default function FilterBar({
               </MenuItem>
             ))}
           </TextField>
+        </Grid> */}
+
+   <Grid item xs={12} sm={4} sx={{ display: "flex", justifyContent: { xs: "flex-start", sm: "flex-end" } }}>
+          {/* Use the drawer-based filter component */}
+          <FilterDrawer
+            filters={filters}
+            setFilters={setFilters}
+            locations={locations}
+            industries={industries}
+          />
         </Grid>
       </Grid>
     </Paper>

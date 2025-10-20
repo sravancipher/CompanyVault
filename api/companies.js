@@ -21,10 +21,10 @@
 // }
 
 
+const fs = require("fs");
+const path = require("path");
 
-const data = require("./db.json");
-
-module.exports = function handler(req, res) {
+module.exports = (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET,OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
@@ -33,6 +33,10 @@ module.exports = function handler(req, res) {
     res.status(200).end();
     return;
   }
+
+  const filePath = path.join(process.cwd(), "db", "db.json");
+  const fileContents = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(fileContents);
 
   res.status(200).json(data.companies);
 };

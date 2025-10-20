@@ -36,8 +36,8 @@ export default function FilterDrawer({
       <Button variant="outlined" onClick={toggleDrawer(true)}>
         Filter
       </Button>
-      <Drawer anchor="right" open={open} onClose={toggleDrawer(false)}>
-        <Box sx={{ width: 300, p: 2 ,borderTopLeftRadius: 200, borderBottomLeftRadius: 200 }}>
+      <Drawer anchor="right" open={open} onClose={toggleDrawer(false)} >
+        <Box sx={{ width: 300, p: 3 }}>
           <Typography variant="h6" gutterBottom>Filter Companies</Typography>
           <Divider sx={{ mb: 2 }} />
 

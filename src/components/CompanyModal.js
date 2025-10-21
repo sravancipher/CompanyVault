@@ -65,12 +65,9 @@ function CompanyModal({ open, handleClose, company }) {
           {company.reviews.map((r, index) => (
             <Card
               key={index}
-              variant="outlined"
-              sx={{
-                minWidth: 220,
-                p: 0,
-                borderRadius: 2,
-                transition: "0.2s",
+              variant="outlined" sx={{
+                minWidth: 220, p: 0,
+                borderRadius: 2, transition: "0.2s",
                 "&:hover": { boxShadow: 4, transform: "scale(1.02)" },
               }}
             >
@@ -92,10 +89,7 @@ function CompanyModal({ open, handleClose, company }) {
         {/* Source Input */}
         <Box sx={{ mt: 3 }}>
           <TextField
-            fullWidth
-            label="Enter your location"
-            variant="outlined"
-            value={source}
+            fullWidth label="Enter your location" variant="outlined" value={source}
             onChange={(e) => setSource(e.target.value)}
           />
         </Box>
@@ -103,14 +97,8 @@ function CompanyModal({ open, handleClose, company }) {
         {/* Map */}
         <Box sx={{ mt: 3 }}>
           <Box
-            component="iframe"
-            title="map"
-            width="100%"
-            height="300"
-            loading="lazy"
-            allowFullScreen
-            src={mapSrc}
-            sx={{ border: 0, borderRadius: 2 }}
+            component="iframe" title="map" width="100%" height="300" loading="lazy"
+            allowFullScreen src={mapSrc} sx={{ border: 0, borderRadius: 2 }}
           />
         </Box>
       </Box>

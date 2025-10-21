@@ -37,11 +37,7 @@ export default function FilterDrawer({
   const handleClear = () => {
     setFilters({
       location: "",
-      industry: "",
-      rating: [0, 5],
-      revenue: [0, 500],
-      employeeCount: [0, 1000],
-      foundedYear: [1980, 2025],
+      industry: "", rating: [0, 5], revenue: [0, 500], employeeCount: [0, 1000], foundedYear: [1980, 2025],
     });
   };
 
@@ -53,21 +49,15 @@ export default function FilterDrawer({
 
       <Drawer anchor="right" open={open} onClose={toggleDrawer(false)}>
         <Box sx={{ width: 320, height: "100%", display: "flex", flexDirection: "column" }}>
-          
-          {/* Header */}
           <Box
             sx={{
-              p: 2,
-              background: "linear-gradient(135deg,#8bc6ec 0%,#9599e2 100%)",
-              borderBottom: "1px solid #ddd",
+              p: 2, background: "linear-gradient(135deg,#8bc6ec 0%,#9599e2 100%)", borderBottom: "1px solid #ddd",
             }}
           >
             <Typography variant="h6" sx={{ color: "white", fontWeight: "bold" }}>
               Filter Companies
             </Typography>
           </Box>
-
-          {/* Content */}
           <Box sx={{ flex: 1, overflowY: "auto", p: 3 }}>
             
             <FormControl fullWidth sx={{ mb: 2 }}>
@@ -107,12 +97,8 @@ export default function FilterDrawer({
             </Typography>
             <Slider
               value={filters.rating || [0, 5]}
-              onChange={handleChange("rating")}
-              valueLabelDisplay="auto"
-              step={1}
-              marks
-              min={0}
-              max={5}
+              onChange={handleChange("rating")} valueLabelDisplay="auto"
+              step={1} marks min={0} max={5}
               sx={{ mb: 3 }}
             />
 
@@ -120,13 +106,10 @@ export default function FilterDrawer({
               Revenue (Cr)
             </Typography>
             <Slider
-              value={filters.revenue || [0, 500]}
-              onChange={handleChange("revenue")}
+              value={filters.revenue || [0, 500]} onChange={handleChange("revenue")}
               valueLabelDisplay="auto"
               step={10}
-              min={0}
-              max={500}
-              sx={{ mb: 3 }}
+              min={0} max={500} sx={{ mb: 3 }}
             />
 
             <Typography gutterBottom sx={{ fontWeight: 500 }}>
@@ -134,35 +117,23 @@ export default function FilterDrawer({
             </Typography>
             <Slider
               value={filters.employeeCount || [0, 1000]}
-              onChange={handleChange("employeeCount")}
-              valueLabelDisplay="auto"
-              step={10}
-              min={0}
-              max={1000}
-              sx={{ mb: 3 }}
+              onChange={handleChange("employeeCount")} valueLabelDisplay="auto"
+              step={10} min={0} max={1000}
+                 sx={{ mb: 3 }}
             />
 
             <Typography gutterBottom sx={{ fontWeight: 500 }}>
               Founded Year
             </Typography>
             <Slider
-              value={filters.foundedYear || [1980, 2025]}
-              onChange={handleChange("foundedYear")}
-              valueLabelDisplay="auto"
-              step={1}
-              min={1980}
-              max={2025}
+              value={filters.foundedYear || [1980, 2025]} onChange={handleChange("foundedYear")} valueLabelDisplay="auto" step={1} min={1980} max={2025}
               sx={{ mb: 3 }}
             />
           </Box>
 
-          {/* Footer (only Clear) */}
           <Box sx={{ p: 2, borderTop: "1px solid #eee" }}>
             <Button
-              fullWidth
-              variant="outlined"
-              sx={{ borderRadius: 2 }}
-              onClick={handleClear}
+              fullWidth  variant="outlined" sx={{ borderRadius: 2 }} onClick={handleClear}
             >
               Clear Filters
             </Button>

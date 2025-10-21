@@ -42,7 +42,6 @@ export default function FilterBar({
         </Grid> */}
 
    <Grid item xs={12} sm={4} sx={{ display: "flex", justifyContent: { xs: "flex-start", sm: "flex-end" } }}>
-          {/* Use the drawer-based filter component */}
           <FilterDrawer
             filters={filters}
             setFilters={setFilters}

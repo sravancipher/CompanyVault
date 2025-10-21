@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
   
-  const [filters, setFilters] = React.useState({
+  const [filters, setFilters] = useState({
   location: "",
   industry: "",
   rating: [0, 5],

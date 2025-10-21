@@ -80,26 +80,26 @@ useEffect(() => {
           <Typography variant="h4"sx={{fontFamily:  "'Exo 2', sans-serif",display:"flex",color:"white", justifyContent: { xs: "center", lg: "flex-start" },alignItems:"center",pt:1}}><HubIcon sx={{color:"black",fontSize:40,ml:1,mr:1}}/>Company Vault</Typography>
       <Typography variant="subtitle1" sx={{ color: "white", textAlign: { xs: "center", md: "left" }, fontFamily: "'Nunito Sans', sans-serif", mt:0,pl: { md: 13, xs:13 }}}> Filter Fast, Find Everything </Typography>
     </Container>
-    <Container sx={{ py: 5,height:"550px" }}>
+    <Container sx={{ py: 5 }}>
 
       <FilterBar
-  searchTerm={searchTerm}
-  setSearchTerm={setSearchTerm}
-  filters={filters}
-  setFilters={setFilters}
-  locations={locations}
-  industries={industries}
-/>
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        filters={filters}
+        setFilters={setFilters}
+        locations={locations}
+        industries={industries}
+        />
 
 
       {loading ? (
-        <CircularProgress sx={{ display: "block", mx: "auto", mt: 5 }} />
+        <CircularProgress sx={{ display: "block", mx: "auto", mt: 5}} />
       ) : (
         <CompanyTable companies={filteredCompanies} />
       )}
       
     </Container>
-   <Container maxWidth="xl" sx={{ mt: "auto" }}>
+      <Container maxWidth="xl" sx={{ mt: "auto" }}>
         <Footer/>
       </Container>
     

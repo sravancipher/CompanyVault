@@ -20,6 +20,7 @@ const modalStyle = {
   boxShadow: 24,
   p: 3,
   outline: "none",
+  height:"auto"
 };
 
 function CompanyModal({ open, handleClose, company }) {

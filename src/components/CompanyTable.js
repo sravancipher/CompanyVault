@@ -11,7 +11,7 @@ import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow,
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
 import CompanyModal from "./CompanyModal";
-
+import Tooltip from "@mui/material/Tooltip";
 export default function CompanyTable({ companies }) {
 
 
@@ -70,6 +70,7 @@ export default function CompanyTable({ companies }) {
       
       <Table>
         <TableHead>
+          
           <TableRow sx={{ backgroundColor: "#1976d2" }}>
             {/* <TableCell sx={{ color: "white", fontWeight: "bold" }}>Name</TableCell> */}
             <TableCell sx={{ color: "white", fontWeight: "bold" }}>
@@ -90,6 +91,7 @@ export default function CompanyTable({ companies }) {
         </TableHead>
         <TableBody>
            {paginatedCompanies.map((c) => (
+        <Tooltip title="Click for more details" arrow>
         <TableRow
           key={c.id}
           hover
@@ -108,6 +110,7 @@ export default function CompanyTable({ companies }) {
           <TableCell>{c.foundedYear}</TableCell>
           <TableCell>{c.revenue}</TableCell>
         </TableRow>
+        </Tooltip>
         ))}
         <CompanyModal open={open} handleClose={handleClose} company={selectedCompany} />
         </TableBody>

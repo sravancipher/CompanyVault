@@ -1,5 +1,5 @@
 import React from "react";
-import { TextField, MenuItem, Grid, Paper } from "@mui/material";
+import { TextField, Grid, Paper } from "@mui/material";
 import FilterDrawer from "./FilterDrawer";
 
 export default function FilterBar({

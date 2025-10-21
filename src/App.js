@@ -9,7 +9,6 @@ function App() {
   const [filteredCompanies, setFilteredCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
-  const [location, setLocation] = useState("");
   
   const [filters, setFilters] = React.useState({
   location: "",
@@ -20,7 +19,6 @@ function App() {
   foundedYear: [1980, 2025],
 });
 
-  const [industry, setIndustry] = useState("");
 
   useEffect(() => {
     const originalTitle = document.title;

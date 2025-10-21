@@ -83,12 +83,8 @@ useEffect(() => {
     <Container sx={{ py: 5 }}>
 
       <FilterBar
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        filters={filters}
-        setFilters={setFilters}
-        locations={locations}
-        industries={industries}
+        searchTerm={searchTerm}    setSearchTerm={setSearchTerm} filters={filters} setFilters={setFilters}locations={locations}
+ industries={industries}
         />
 
 

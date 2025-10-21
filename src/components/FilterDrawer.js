@@ -1,14 +1,6 @@
 import * as React from "react";
 import {
-  Box,
-  Drawer,
-  Button,
-  Typography,
-  FormControl,
-  InputLabel,
-  Select,
-  MenuItem,
-  Slider,
+  Box, Drawer, Button,Typography,FormControl, InputLabel, Select, MenuItem, Slider,
 } from "@mui/material";
 
 export default function FilterDrawer({
@@ -66,14 +58,12 @@ export default function FilterDrawer({
                 value={filters.location || ""}
                 label="Location"
                 onChange={handleChange("location")}
-              >
-                <MenuItem value="">All</MenuItem>
+              > <MenuItem value="">All</MenuItem>
                 {locations.map((loc) => (
                   <MenuItem key={loc} value={loc}>
                     {loc}
                   </MenuItem>
-                ))}
-              </Select>
+                ))} </Select>
             </FormControl>
 
             <FormControl fullWidth sx={{ mb: 2 }}>
@@ -103,8 +93,7 @@ export default function FilterDrawer({
             />
 
             <Typography gutterBottom sx={{ fontWeight: 500 }}>
-              Revenue (Cr)
-            </Typography>
+              Revenue (Cr) </Typography>
             <Slider
               value={filters.revenue || [0, 500]} onChange={handleChange("revenue")}
               valueLabelDisplay="auto"
@@ -118,12 +107,12 @@ export default function FilterDrawer({
             <Slider
               value={filters.employeeCount || [0, 1000]}
               onChange={handleChange("employeeCount")} valueLabelDisplay="auto"
-              step={10} min={0} max={1000}
-                 sx={{ mb: 3 }}
+              step={10} min={0} max={1000} sx={{ mb: 3 }}
             />
 
             <Typography gutterBottom sx={{ fontWeight: 500 }}>
               Founded Year
+
             </Typography>
             <Slider
               value={filters.foundedYear || [1980, 2025]} onChange={handleChange("foundedYear")} valueLabelDisplay="auto" step={1} min={1980} max={2025}

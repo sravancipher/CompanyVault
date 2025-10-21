@@ -40,9 +40,9 @@ function App() {
   }, []);
   
   useEffect(() => {
-    // fetch("https://company-vault.vercel.app/api/companies")
+    fetch("https://company-vault.vercel.app/api/companies")
     
-    fetch("http://localhost:5000/companies")
+    // fetch("http://localhost:5000/companies")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

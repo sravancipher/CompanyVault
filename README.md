@@ -1,15 +1,14 @@
-# Company Vault - Filter Fast Find Everything
+# Company Vault - Filter, Explore, and Locate Companies
 
-A responsive web application for discovering companies across different industries and locations. Users can efficiently filter, search, and sort companies to find exactly what they're looking for.
+A responsive web application designed to help users discover companies across industries and locations with advanced search, filtering, and interactive mapping features. Users can efficiently explore company details, reviews, and directions while customizing their search with multiple filters.
 
 ## 📋 Features
 
-- **Industry Filtering**: Browse companies by specific industry categories
-- **Location-based Search**: Find companies in particular geographic locations  
-- **Company Search**: Search for companies by name
-- **Smart Sorting**: Sort company listings alphabetically
-- **Responsive Design**: Optimized for desktop and mobile devices
-- **Fast Performance**: Built with React and Material-UI for smooth user experience
+- **Industry & Location Filtering**: Filter companies by specific industries, geographic locations, ratings, employee count, and revenue. Includes a side drawer for easy access to filter options and a Clear Filters button to reset selections
+- **Company Search & Sorting**: Search companies by name and sort listings alphabetically for quick browsing
+- **Interactive Company Details**: Click on a company to open a modal displaying company reviews and the company’s location on a map
+- **Dynamic Map & Directions**: Input a location in the search bar to view directions from the entered location to the company location, including travel time
+- **Responsive & Fast**: Built with React and Material-UI for a smooth experience across desktop and mobile devices
 
 ## 🛠️ Tech Stack
 
